@@ -1,0 +1,386 @@
+nav {
+    background-color: #ffffff00;
+    height: 50px;
+}
+
+.barra-navegacion li a:hover {
+    color: blue;
+}
+
+.barra-navegacion li a {
+    transition: color 0.3s ease;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #bebebe;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(56, 56, 56);
+}
+
+body {
+    background-color: lightblue;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffcccc, #ff9999);
+}
+
+h1 {
+    color: grey;
+}
+
+ul {
+    list-style: none;
+}
+
+.caja {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: salida 1s ease-in-out forwards;
+}
+
+@keyframes salida {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+img {
+    position: relative;
+    top: 60px;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -110px;
+
+}
+
+p {
+    font-size: 25px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.gallery img {
+    /* ... */
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cell {
+    border: 1px solid #000;
+    background-color: peachpuff;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    border-color: peachpuff;
+    border-radius: 20px;
+    font-family: 'Impact', sans-serif;
+    color: rgb(128, 0, 128);
+}
+
+.centrar-imagen {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.barra-navegacion {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-navegacion li {
+    margin: 0 10px;
+}
+
+.barra-navegacion li a {
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.barra-container {
+    border-radius: 20px;
+    border: 2px solid #242424;
+    overflow: hidden;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.barra-navegacion {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+.barra-navegacion li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.barra-navegacion a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fortalezas-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.objetivos-item {
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #f2f2f2;
+    border-radius: 40px;
+}
+
+.objetivos:hover {
+    transform: translateY(-5px);
+}
+
+.objetivos-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.objetivos-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.fortaleza-item {
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #f2f2f2;
+    border-radius: 40px;
+}
+
+.objetivos-item:hover {
+    transform: translateY(-5px);
+}
+
+
+.fortaleza-item:hover {
+    transform: translateY(-5px);
+}
+
+.fortaleza-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.fortaleza-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 480px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #555;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #00aced;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.video-item {
+    width: 100%;
+}
+
+.cajadeimagen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.foto-alejo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 2px solid peachpuff;
+    margin-bottom: 100px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding-bottom: 30px;
+}
