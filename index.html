@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejo Fernández Diseñador Gráfico</title>
+    <link rel="stylesheet" type="text/css" href="TrabajoFinalDI/CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f5ee0a9f70.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Impact&amp;display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="IMG/Favicon.ico">
+</head>
+
+<body>
+
+        <header>
+            <div class="contenedor">
+                <ul class="barra-navegacion">
+                    <li><a href="#Inicio"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="#Objetivos"><i class="fa-solid fa-person-hiking"></i> Objetivos</a></li>
+                    <li><a href="#Fortalezas"><i class="fas fa-check"></i> Fortalezas</a></li>
+                    <li><a href="#Trabajos"><i class="fa-solid fa-map"></i> Trabajos</a></li>
+                    <li><a href="#Videos"><i class="fa-solid fa-video"></i> Videos</a></li>
+                    <li><a href="#Contacto"><i class="fa-solid fa-address-book"></i> Contacto</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+        <section>
+            <br>
+            <div class="cajadeimagen">
+                <img class="foto-alejo" src="IMG/FotoAlejo.webp" alt="Mi foto">
+            </div>
+            <div class="cell">Alejo Fernández</div>
+            <div style="text-align: center;">
+                <h1 id="Inicio">¡Bienvenido a mi CV!</h1>
+                <br>
+            </div>
+        </section>
+        <section>
+            <h2 id="Objetivos">Mis objetivos son:</h2>
+            <div id="Objetivos-section"></div>
+            <div class="objetivos-item">
+                <i class="fas fa-user-graduate"></i>
+                <p>Recibirme de Diseñador</p>
+            </div>
+            <div class="objetivos-item">
+                <i class="fas fa-vector-square"></i>
+                <p>Vectorizar imágenes como un profesional</p>
+            </div>
+            <div class="objetivos-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <p>¡Ser un gran diseñador!</p>
+            </div>
+        </section>
+        <section>
+            <h2 id="Fortalezas">Y mis fortalezas son:</h2>
+            <div id="fortalezas-section">
+            </div>
+            <div class="fortaleza-item">
+                <i class="fas fa-palette"></i>
+                <p>Tener creatividad</p>
+            </div>
+            <div class="fortaleza-item">
+                <i class="fa-brands fa-windows"></i>
+                <p>Buen manejo de Windows</p>
+            </div>
+            <div class="fortaleza-item">
+                <i class="fa-brands fa-linux"></i>
+                <p>¡Y también de Linux!</p>
+            </div>
+            <div class="fortaleza-item">
+                <i class="fa-solid fa-bezier-curve"></i>
+                <p>Saber mucho de Illustrator e InkScape</p>
+            </div>
+        </section>
+        <section>
+            <h2 id="Trabajos">Algunos de mis trabajos:</h2>
+            <div class="gallery">
+                <img src="IMG/Trabajo1.webp" alt="Portada revista">
+                <img src="IMG/Trabajo2.webp" alt="Diseño de envase">
+                <img src="IMG/Trabajo3.webp" alt="Trabajo de Morfología">
+                <img src="IMG/Trabajo4.webp" alt="Recreación de obra de arte">
+            </div>
+        </section>
+        <h2 id="Videos">Algunos videos que te recomiendo ver</h2>
+        <div class="video-container">
+            <div class="video-item">
+                <div class="video-grid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_pXO8g8u9Hw"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="video-item">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/_pXO8g8u9Hw"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="Contacto"> ¡No dudes en contactarme para cualquier duda o contacto comercial!</h2>
+        <h3 id="form">Formulario de Contacto</h3>
+        <form action="mailto:alejo.fernandez@davinci.edu.ar" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="30" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </main>
+    <br>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/alejo-fernandez-57ba13187/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://youtube.com/@alejolteon" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>Autor: Alejo Fernández</p>
+    </footer>
+</body>
+
+</html>
